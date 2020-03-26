@@ -53,7 +53,7 @@ function getAgeAverage(array) {
         arraySum += arrayItem;
     }
 
-    average = (arraySum / array.length).toFixed(2);
+    average = (arraySum / array.length).toFixed(0);
 
     return average;
 
@@ -68,3 +68,6 @@ function showResults(oldest, youngest, average) {
 function clearDataForNewCalculation (array) {
     array = [];
 }
+
+
+// VALIDATION FUNCTIONS:
