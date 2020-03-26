@@ -36,3 +36,4 @@ $calculateButton.onclick = function () {
 
     return false;
 }
+
